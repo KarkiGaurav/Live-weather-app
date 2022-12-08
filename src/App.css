@@ -1,0 +1,95 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.cotainer{
+  height: 400px;
+  width: 300px;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin-top: 100px;
+  box-shadow: 0px 0px 6px 6px rgba(48, 44, 44, 0.658);
+  background-color: rgba(183, 217, 247, 0.384);
+  position: relative;
+  transition: 0.5s;
+}
+.cotainer:hover{
+  box-shadow: 0px 0px 6px 6px rgba(101, 197, 69, 0.658);
+  
+  
+}
+.heading{
+  margin-top: 20px;
+  word-spacing: 10px ;
+  line-height: 30px;
+
+}
+span{
+  
+  color: black;
+  font-size: 25px;
+  
+}
+
+.inputfield{
+  border: none;
+  border-bottom: 2px solid green;
+  border-radius: 3px;
+  outline: none;
+  background: transparent;
+  margin-top: 20px;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.error{
+  color: rgb(8, 78, 8);
+  margin-top: 20px;
+  font-size: 25px;
+
+}
+
+.city{
+  color: green;
+  margin-top: 20px;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-shadow:  4px 4px rgba(16, 17, 16, 0.281);
+}
+
+.box{
+  margin-top: 20px;
+ 
+}
+h4{
+  margin-top: 5px;
+  color: rgba(22, 21, 21, 0.911);
+  opacity: 50%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.pres{
+  color: black;
+  margin-top: 6px;
+}
+
+.icon{
+ 
+  margin-top: 40px;
+}
+h5{
+  color: rgba(22, 21, 21, 0.418);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: 'Open Sans', sans-serif;
+}
