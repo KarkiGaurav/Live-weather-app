@@ -15,7 +15,7 @@ const Weather = () => {
  
   useEffect( ()=> {
     getWeather();
-  })
+  },[{city}]);
   
 
   return (
